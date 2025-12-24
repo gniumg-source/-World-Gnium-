@@ -1,0 +1,26 @@
+Conectar a GitHub con SSH
+Puedes conectarte a GitHub utilizando el Protocolo de Secure Shell (SSH), lo cual proporciona un canal seguro sobre una red insegura.
+
+Acerca de SSH
+Usando el protocolo SSH, te puedes conectar y autenticar con servicios y servidores remotos. Con las claves SSH puedes conectarte a GitHub sin necesidad de proporcionar el nombre de usuario y el personal access token en cada visita. También puedes usar una clave SSH para firmar confirmaciones.
+
+Utilizar el reenvío del agente SSH
+Para simplificar los despliegues en un servidor, puedes configurar el reenvío del agente SSH para utilizar las llaves SSH locales de forma segura.
+
+Administrar las llaves de despliegue
+Aprende las diversas formas de administrar llaves SSH en tus servidores cuando automatizas los scripts de desplegue y averigua qué es lo mejor para ti.
+
+Comprobar tus claves SSH existentes
+Antes de generar una clave SSH, puedes comprobar si tienes alguna clave SSH existente.
+
+Generación de una nueva clave SSH y adición al agente SSH
+Una vez que has comprobado las claves SSH existentes, puedes generar una nueva clave SSH para usarla para la autenticación y luego agregarla al ssh-agent.
+
+Agregar una clave SSH nueva a tu cuenta de GitHub
+Para configurar tu cuenta en GitHub.com a fin de utilizar tu clave SSH nueva (o existente), también necesitarás agregar la clave a tu cuenta.
+
+Probar tu conexión SSH
+Después de configurar la clave SSH y agregarla a GitHub.com, puede probar la conexión.
+
+Trabajar con contraseñas de clave SSH
+Puedes asegurar tus claves SSH y configurar un agente de autenticación para no tener que volver a ingresar tu contraseña cada vez que uses tus claves SSH.
